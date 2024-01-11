@@ -1,0 +1,28 @@
+*{
+    background-image: url("./Background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container h1{
+    color : yellow;
+    font-size: 10rem;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+.players{
+    display: flex;
+    flex-direction: row;
+}
+.dice{
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;
+    color: yellow;
+    padding: 20px;
+}
